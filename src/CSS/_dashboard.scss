@@ -1,0 +1,143 @@
+.bg-main {
+  background-image: url(../images/bg.png);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+.header .icon {
+  max-width: 50px;
+}
+
+.nav-btn {
+  button {
+    background: none;
+    outline: none;
+    border: none;
+    color: #8a8a8a;
+    padding: 15px 40px 0px 40px;
+    font-weight: bold;
+  }
+  .top-img {
+    position: absolute;
+    top: 0px;
+  }
+  .top-img.green {
+    left: 25px;
+  }
+  .top-img.orange {
+    left: 150px;
+  }
+  .top-img.blue {
+    left: 276px;
+  }
+  .top-img.purple {
+    right: 42px;
+  }
+}
+
+.logo-img {
+  max-width: 200px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background: none;
+}
+
+// mission tab
+.left-content {
+  background: #0072ff33;
+  width: 100%;
+  max-width: 376px;
+  margin: 0 15px;
+  padding: 10px 0;
+  border-radius: 15px;
+  p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #a6e9ff;
+    padding: 10px 0;
+  }
+}
+.right-content {
+  img {
+    max-width: 273px;
+    border: 3px solid #a6e9ff;
+  }
+  .figure {
+    color: #a6e9ff;
+    max-width: 75%;
+    margin: auto;
+  }
+}
+.game-logo {
+  padding: 10px 20px;
+  img {
+    max-width: 70px;
+    background: grey;
+    border-radius: 50%;
+    padding: 10px 10px;
+    border: 3px solid #fff;
+  }
+  .mulitImg {
+    border-radius: 15px;
+    max-width: 80px;
+  }
+  span {
+    width: 67px;
+    height: 6px;
+    display: block;
+    background: grey;
+    border-radius: 10px;
+    margin: 11px 0;
+  }
+  span.active {
+    box-shadow: 0 0 4px 3px grey;
+    background: #fff;
+  }
+}
+
+// footer
+.main-footer {
+  P {
+    color: #a6e9ff;
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+  .avatar {
+    max-width: 140px;
+  }
+
+  .master {
+    max-width: 40px;
+    position: absolute;
+    right: -16px;
+    top: -18px;
+  }
+
+  .user-stat {
+    p {
+      white-space: nowrap;
+    }
+  }
+
+  .playBtn {
+    max-width: 167px;
+  }
+
+  .arwo {
+    max-width: 30px;
+  }
+  .result {
+    font-size: 2rem;
+    padding-left: 12px;
+  }
+}
+
+.footer-height {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 38vh;
+}

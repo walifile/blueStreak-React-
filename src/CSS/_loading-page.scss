@@ -1,0 +1,26 @@
+.main-loading-screen {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  .loading-bg {
+    text-align: center;
+    width: 100%;
+    background: #0000004d;
+    height: 35vh;
+    img {
+      max-width: 150px;
+    }
+    h3 {
+      color: #9ee9ff;
+      font-weight: bold;
+      span {
+        color: #9ee9ff;
+      }
+    }
+    p {
+      color: #ccc;
+      font-weight: bold;
+    }
+  }
+}
